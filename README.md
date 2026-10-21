@@ -38,3 +38,7 @@ git clone https://github.com/gusnips/skills.git ~/dev/skills
 ```
 
 `link.sh` points `~/.agents`, `~/.claude` and `~/.codex` at this folder. It moves any real file that's in the way to `~/.agents-backup/` first, removes links to skills this repo no longer has, and it's safe to run again.
+
+## License
+
+MIT, see `LICENSE`. `skills/simplify` keeps its own Apache-2.0 license (`skills/simplify/LICENSE`).
