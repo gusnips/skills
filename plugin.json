@@ -1,0 +1,42 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "skills",
+  "version": "1.0.0",
+  "description": "Design and polish UI screens and states (ux), ship PRs end-to-end with CI and deploy gates (deploy), and tidy recently changed code without changing behavior (simplify).",
+  "author": {
+    "name": "Gustavo Salomé",
+    "email": "gustavonips@gmail.com",
+    "url": "https://github.com/gusnips"
+  },
+  "homepage": "https://github.com/gusnips/skills",
+  "repository": "https://github.com/gusnips/skills",
+  "license": "MIT",
+  "keywords": ["skills", "ux", "deploy", "simplify", "claude-code"],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "gusnips skills",
+        "shortDescription": "UI design, end-to-end PR shipping, and code cleanup skills",
+        "longDescription": "Three skills for AI coding agents: ux designs and polishes screens, flows, states and landing pages while keeping PRODUCT.md and DESIGN.md in sync; deploy ships finished work through CI, staging, migrations and production gates; simplify refines recently modified code without changing behavior.",
+        "developerName": "Gustavo Salomé",
+        "category": "Productivity",
+        "capabilities": [
+          "Design and polish UI screens, states and flows (/ux)",
+          "Ship finished work through CI, staging and production (/deploy)",
+          "Refine recently changed code without changing behavior (/simplify)"
+        ],
+        "websiteURL": "https://github.com/gusnips/skills",
+        "supportURL": "https://github.com/gusnips/skills/issues",
+        "defaultPrompt": [
+          "Polish the states and copy of the screen I just changed.",
+          "Deploy this branch to staging and watch the checks.",
+          "Simplify the code modified on this branch."
+        ],
+        "brandColor": "#059669",
+        "brandColorDark": "#34d399",
+        "composerIcon": "./.claude-plugin/icon.png",
+        "logo": "./.claude-plugin/icon.png"
+      }
+    }
+  }
+}

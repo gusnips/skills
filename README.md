@@ -18,7 +18,13 @@ How my AI coding agents work: the instructions every session starts with, the ru
 
 ## Install
 
-Just the skills:
+As a plugin in Claude Code:
+
+```text
+/plugin install skills --marketplace gusnips/skills
+```
+
+Or just the skills with the `skills` CLI:
 
 ```bash
 npx skills add gusnips/skills

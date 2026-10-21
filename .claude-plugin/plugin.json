@@ -1,0 +1,18 @@
+{
+  "name": "skills",
+  "displayName": "gusnips skills",
+  "version": "1.0.0",
+  "description": "Design and polish UI screens and states (ux), ship PRs end-to-end with CI and deploy gates (deploy), and tidy recently changed code without changing behavior (simplify).",
+  "author": {
+    "name": "Gustavo Salomé",
+    "email": "gustavonips@gmail.com",
+    "url": "https://github.com/gusnips"
+  },
+  "homepage": "https://github.com/gusnips/skills",
+  "repository": "https://github.com/gusnips/skills",
+  "license": "MIT",
+  "keywords": ["skills", "ux", "deploy", "simplify", "claude-code"],
+  "icon": "./.claude-plugin/icon.png",
+  "documentationUrl": "https://github.com/gusnips/skills#readme",
+  "supportUrl": "https://github.com/gusnips/skills/issues"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "gusnips",
+  "owner": {
+    "name": "Gustavo Salomé",
+    "email": "gustavonips@gmail.com",
+    "url": "https://github.com/gusnips"
+  },
+  "description": "Skills for Claude Code and Codex: ux, deploy and simplify.",
+  "plugins": [
+    {
+      "name": "skills",
+      "source": "./",
+      "description": "Design and polish UI screens and states (ux), ship PRs end-to-end with CI and deploy gates (deploy), and tidy recently changed code without changing behavior (simplify).",
+      "category": "productivity"
+    }
+  ]
+}
